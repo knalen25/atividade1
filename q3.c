@@ -14,12 +14,6 @@ int main(){
     {
         printf("senha valida!");
     }
-
-  /*while (senha!= login)
-  {
-        printf ("senha invalida\n");
-        printf("digite a senha novamente para fazer o login\n");
-  }*/
   
     for (; senha != login;)
     {
