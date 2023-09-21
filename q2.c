@@ -4,12 +4,12 @@ int main(){
     int num;
     int soma = 0;
 
-    printf("digite o numero desejado\n");
+    printf("digite o numero desejado:\n");
     scanf("%d", &num);
 
-    for (; num != 0; num = num/10)
+    for (int i = num; i != 0; i = i/10)
     {
-        soma += num % 10;
+        soma += i % 10;
         
     }
     
