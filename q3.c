@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//trocar float por double
+
 
 int main(){
     int senha, login;
