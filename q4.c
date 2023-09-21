@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+//trocar float por double
+
 int main(){
 
     char pls;
