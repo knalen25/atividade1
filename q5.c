@@ -4,10 +4,10 @@
 int main(){
     int a, b;
 
-    printf("digite o valor de A:\n");
+    //printf("digite o valor de A:\n");
     scanf("%d",&a);
 
-    printf("digite o valor de B:\n");
+    //printf("digite o valor de B:\n");
     scanf("%d", &b);
 
     if (a > b && a%b == 0)
