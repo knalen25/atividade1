@@ -15,12 +15,14 @@ int main(){
     
     if (num % 2 == 0)
     {
-        printf("Numero par e a soma dos algarismos e: %d\n", soma);
+        printf("%d eh par\n", num);
+        printf("A soma dos algarismos de %d eh igual a %d\n", num, soma);
     }
     
     else if (num % 2 != 0)
     {
-        printf("Numero impar e a soma dos algarismos e: %d\n", soma);
+        printf("%d eh impar\n", num);
+        printf("A soma dos algarismos de %d eh igual a %d\n", num, soma);
     }
     
     return 0;
