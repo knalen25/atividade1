@@ -4,7 +4,7 @@
 int main(){
     int ano,r, resto;
 
-    printf("digite o ano:\n");
+    //printf("digite o ano:\n");
     scanf("%d", &ano);
 
     r = ano - 1930;
