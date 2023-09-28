@@ -16,7 +16,7 @@ int main(){
     if (num % 2 == 0)
     {
         printf("%d eh par\n", num);
-        printf("A soma dos algarismos de %d eh  %d\n", num, soma);
+        printf("A soma dos algarismos de %d eh %d\n", num, soma);
     }
     
     else if (num % 2 != 0)
